@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+}
+
+nav>ul {
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    justify-content: center;
+}
+
+nav>ul>li {
+    list-style-type: none;
+}
+
+nav>ul>li>a {
+    color: rgba(0, 0, 0, 0.548);
+    text-decoration: none;
+    transition: all as 0.3s ease;
+}
+
+nav>ul>li>a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(29, 1, 1);
+}
+
+footer>p {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 30px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+
+}
+
+.popular {
+    width: 100%;
+    height: auto;
+}
+
+.popular>h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tovar-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.tovar-card {
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px 10px 20px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.tovar-img {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.tovar-info {
+    text-align: center;
+}
+
+.tovar-info>a {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.tovar-info>p {
+    border-radius: 10px;
+    padding: 5px 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.product-page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.tovar-img-page {
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tovar-info-page {
+    width: 45%;
+    height: auto;
+
+}
+
+.tovar-info-page>h1 {
+    margin-bottom: 70px;
+}
+
+.tovar-info-page:nth-child(2) {
+    line-height: 1.5;
+}
+
+.price {
+    width: 100%;
+    height: auto;
+    background-color: rgb(172, 140, 99);
+    padding: 30px 10px;
+    border-radius: 20px;
+
+}
+
+.tovar-info-page>button {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 0;
+    background-color: burlywood;
+    color: rgb(145, 104, 104);
+}
+
+.tovar-info-page>button:hover {
+    cursor: pointer;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid fuchsia;
+}
